@@ -293,7 +293,7 @@ if (!search) return true;
         </div>
       </Modal>
 
-        {/*Add Employee */}
+        {/*Add Employee  Modal*/}
       <Modal
         radius={20}
         centered='true'
