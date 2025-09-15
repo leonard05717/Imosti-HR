@@ -1,0 +1,199 @@
+.Stepper-Container {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.Survey-acction {
+  border-width: 50;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.Input-Center {
+  margin-top: 10px;
+  height: calc(70vh - 12rem);
+}
+.font-size {
+  font-family: "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+.Input-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 300px;
+  border-radius: 10%;
+  font-weight: bold;
+}
+.left-info {
+}
+
+.input-design {
+  display: flex;
+
+  justify-content: space-evenly;
+}
+
+.right-container {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  width: 300px;
+  font-weight: bold;
+}
+
+.AService {
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.Second-border {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding-top: 5px;
+  font-weight: bold;
+}
+
+.logo {
+  margin-left: 210px;
+  margin-top: -20px;
+}
+
+.Main-text {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+.Second-text {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.first-border {
+  border-top: 2px solid black;
+}
+.Feedback-text {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+.Feedback-question {
+  margin-left: 90px;
+}
+
+.Step4 {
+  padding-bottom: 100px;
+}
+
+.Center-Step4 {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.Borderline-Step4 {
+  border-bottom: 2px solid black;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.Main {
+  background-color: red;
+}
+
+.modal-content {
+  background: #df0202;
+  padding: 1.5rem;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 90%;
+  position: relative;
+  animation: slideDown 0.3s ease-out;
+}
+
+.m_b5489c3c.m_d0e2b9cd.mantine-Modal-header {
+  background: rgb(73, 73, 73);
+  min-height: calc(1.75rem * var(--mantine-scale));
+  padding-bottom: 1px;
+  padding-top: 3px;
+}
+
+.mantine-focus-auto.mantine-active.m_220c80f2.m_606cb269.mantine-Modal-close.m_86a44da5.mantine-CloseButton-root.m_87cf2631.mantine-UnstyledButton-root {
+  color: azure;
+}
+.m_fd1ab0aa .m_54c44539.mantine-Modal-content.m_1b7284a3.mantine-Paper-root {
+  width: 550px;
+  height: 250px;
+}
+
+.m_71ac47fc.mantine-AspectRatio-root {
+  width: 300px;
+  height: 100px;
+  padding-top: 20px;
+  padding-left: 60px;
+}
+
+.Aspect-text {
+  margin-left: -55px;
+  margin-top: 25px;
+  background: linear-gradient(to bottom, rgb(126 230 242), rgb(75 194 245));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.Aspect-text2 {
+  margin-left: 30px;
+}
+.Response {
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.Button-done {
+  display: flex;
+  margin-left: 170px;
+  margin-top: 10px;
+}
+
+.Devider-tabs {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* .m_38a85659.mantine-Popover-dropdown{
+
+  display: flex;
+  justify-content: center;
+  width: 200px !important;
+  height: 250px;
+ 
+} */
+
+.m_730a79ed.mantine-DatePickerInput-calendarHeader {
+  display: flex;
+}
+
+.clickable-element {
+  user-select: none;
+  cursor: pointer;
+}
+
+.clickable-element:hover {
+  opacity: 0.9;
+}
+
+.clickable-element:active {
+  opacity: 0.7;
+}

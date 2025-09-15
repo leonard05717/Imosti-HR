@@ -1,0 +1,169 @@
+.m_9e117634.mantine-Image-root {
+}
+
+.m_89d60db1.mantine-Tabs-root {
+  margin-top: 100px;
+}
+
+.Tabs-Main {
+  height: 695px;
+  width: 242px;
+  border: 1px dashed black;
+  background-color: rgb(121, 118, 118);
+}
+
+.m_89d33d6d.mantine-Tabs-list {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  padding-left: 40px;
+  padding-right: 40px;
+
+}
+
+.m_89d60db1.mantine-Tabs-root {
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.tab-list {
+  font-size: large;
+}
+
+.mantine-focus-auto.m_c3381914.m_4ec4dce6.mantine-Tabs-tab.tab-list.m_87cf2631.mantine-UnstyledButton-root {
+}
+
+.m_b0c91715.mantine-Tabs-panel {
+  display: flex;
+
+  margin-top: -200px;
+  height: 694px;
+  margin-right: -1215px;
+  width: 1295px;
+}
+
+.item {
+  border: 2px solid #0005;
+  margin-bottom: 3px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+/* .m_4081bf90.mantine-Group-root {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: -40px;
+} */
+
+.Questiong-answer {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.Coursetext {
+  display: flex;
+}
+
+.m_fd1ab0aa.m_54c44539.mantine-Modal-content.m_1b7284a3.mantine-Paper-root::-webkit-scrollbar {
+  overflow: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  overflow-y: hidden;
+}
+
+.course-CA {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-left: 70px;
+}
+
+.Average-list {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-left: 40px;
+  margin-top: -30px;
+}
+
+.Average-listb {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-left: 40px;
+  margin-top: -55px;
+}
+
+.Average-listc {
+  display: flex;
+  justify-content: center;
+  gap: 113px;
+  margin-left: 43px;
+  margin-top: -55px;
+}
+
+.Average-listd {
+  display: flex;
+  justify-content: center;
+  gap: 93px;
+  margin-left: 45px;
+  margin-top: -55px;
+}
+
+.Question-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -25px;
+}
+
+.question-avg {
+  display: flex;
+  margin-left: 100px;
+}
+
+.modalforstaff {
+  margin-top: 10px;
+  gap: 10px;
+  flex-direction: column;
+}
+
+#print-area {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  visibility: hidden;
+}
+
+@media print {
+  * {
+    visibility: hidden;
+  }
+  .analytic-page {
+    display: none;
+  }
+
+  #print-area,
+  #print-area * {
+    visibility: visible;
+  }
+
+  #print-area {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .mantine-Popover-dropdown {
+    display: none;
+  }
+  #drawer {
+    display: none;
+  }
+}

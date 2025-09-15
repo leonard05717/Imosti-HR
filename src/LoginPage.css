@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+.m_71ac47fc.mantine-AspectRatio-root{
+  height: 100px;
+  width: 300px;
+}
+
+.header {
+  background-color: #2e2e2e;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.header .blue {
+  color: #80dfff;
+}
+
+.header .globe {
+  color: #f26b1d;
+  font-size: 2rem;
+  margin: 0 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.login-box {
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-box h2 {
+  margin-top: 0;
+}
+
+.login-box hr {
+  margin: 10px 0 20px;
+}
+
+.login-box label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.forgot-password {
+  text-align: right;
+  margin-top: 5px;
+}
+
+.forgot-password a {
+  color: #407cff;
+  font-size: 0.9em;
+  text-decoration: none;
+}
+
+/* button[type="submit"] {
+  width: 100%;
+  background-color: #3f60ff;
+  color: white;
+  padding: 12px;
+  margin-top: 25px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+} */
+
+.footer {
+  height: 15px;
+  background-color: #f26b1d;
+  margin-top: 40px;
+}
+
+.message {
+  margin-top: 15px;
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
