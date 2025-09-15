@@ -31,11 +31,6 @@ const links = [
     to: "Medical",
     icon: IconMan,
   },
-  {
-    label: "Setting",
-    to: "setting",
-    icon: IconSettings,
-  },
 ];
 
 /**

@@ -17,8 +17,6 @@ import AdminMainPage from "./AdminSide/AdminMainPage.jsx";
 import MedicalReimbursement from "./AdminSide/MedicalReimbursement.jsx";
 import Analytics from "./pages/Analytics.jsx";
 import Maintenance from "./AdminSide/Maintenance.jsx";
-import EmpForm from "./AdminSide/EmpForm.jsx";
-import Setting from "./AdminSide/Setting.jsx";
 import { DrawerProvider } from "./context/DrawerContext.jsx";
 import Security from "./components/Security.jsx";
 import ResetPassword from "./pages/ResetPassword.jsx";
@@ -60,15 +58,6 @@ const routers = createBrowserRouter([
           <Security
             page='Medical'
             children={<MedicalReimbursement />}
-          />
-        ),
-      },
-      {
-        path: "setting",
-        element: (
-          <Security
-            page='setting'
-            children={<Setting />}
           />
         ),
       },
