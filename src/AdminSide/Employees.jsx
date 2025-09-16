@@ -6,7 +6,7 @@ import { IconDotsVertical, IconPlus, IconSearch, IconTrash } from "@tabler/icons
 import { useForm } from "@mantine/form";
 import { useDisclosure } from "@mantine/hooks";
 
-function Settings() {
+function Employees() {
 
   const [EmployeeAdd,{ open: openEmployee, close: closeEmployee },] = useDisclosure(false)  
   const [deleteState,{ open: opendeleteState, close: closedeleteState },] = useDisclosure(false);
@@ -209,20 +209,20 @@ async function fetchData() {
     setLoadingPage(false);
   }
 }
-
 useEffect(() => {
-
-    const total = AddEmployeeForm.values.table.reduce((acc, item) => {
-      const value = parseFloat(item.charge, 10);
-      return acc + (isNaN(value) ? 0 : value);
-    }, 0);
-
-    const mbl = parseFloat(AddEmployeeForm.values.Allocated_MBL, 10) || 0;
-    const balance = mbl - totalReimbursement;
-    setMBLBalance(balance);
-  
-    setTotalReimbursement(total);
-
+    fetchData();
+  }, []);
+useEffect(() => {
+        const total = AddEmployeeForm.values.table.reduce((acc, item) => {
+            const value = parseFloat(item.charge, 10);
+            return acc + (isNaN(value) ? 0 : value);
+          }, 0);
+      
+          const mbl = parseFloat(AddEmployeeForm.values.Allocated_MBL, 10) || 0;
+          const balance = mbl - totalReimbursement;
+          setMBLBalance(balance);
+        
+          setTotalReimbursement(total);
 },[AddEmployeeForm.values.table , AddEmployeeForm.values.Allocated_MBL]);
 
 
@@ -730,4 +730,4 @@ if (!search) return true;
   
 }
 
-export default Settings;
+export default  Employees;

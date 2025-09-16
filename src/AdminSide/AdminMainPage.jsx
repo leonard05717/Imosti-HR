@@ -29,7 +29,7 @@ const links = [
   },
   {
     label: "Employee",
-    to: "Medical",
+    to: "Employees",
     icon: IconMan,
   },
   {

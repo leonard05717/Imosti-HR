@@ -14,8 +14,8 @@ import {
 } from "react-router-dom";
 import LoginPage from "./LoginPage.jsx";
 import AdminMainPage from "./AdminSide/AdminMainPage.jsx";
-import MedicalReimbursement from "./AdminSide/MedicalReimbursement.jsx";
 import Analytics from "./pages/Analytics.jsx";
+import Employees from "./AdminSide/Employees.jsx";
 import Masterlist from "./AdminSide/MasterList.jsx"
 import Maintenance from "./AdminSide/Maintenance.jsx";
 import { DrawerProvider } from "./context/DrawerContext.jsx";
@@ -54,11 +54,11 @@ const routers = createBrowserRouter([
         ),
       },
       {
-        path: "Medical",
+        path: "Employees",
         element: (
           <Security
-            page='Medical'
-            children={<MedicalReimbursement />}
+            page='Employees'
+            children={<Employees />}
           />
         ),
       },
