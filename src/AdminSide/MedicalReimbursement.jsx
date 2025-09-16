@@ -223,7 +223,6 @@ useEffect(() => {
   
     setTotalReimbursement(total);
 
-  fetchData();
 },[AddEmployeeForm.values.table , AddEmployeeForm.values.Allocated_MBL]);
 
 
@@ -293,7 +292,7 @@ if (!search) return true;
         </div>
       </Modal>
 
-        {/*Add Employee  Modal*/}
+        {/*Add Employee */}
       <Modal
         radius={20}
         centered='true'
@@ -627,7 +626,7 @@ if (!search) return true;
           <Button
             size='xs'
             leftSection={<IconPlus size={18} />}
-            onClick={() => {openEmployee();}}
+            onClick={() => {openEmployee() ,  AddEmployeeForm.reset() ;}}
             
           >
             Add Employee

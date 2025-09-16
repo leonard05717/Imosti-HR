@@ -16,6 +16,7 @@ import LoginPage from "./LoginPage.jsx";
 import AdminMainPage from "./AdminSide/AdminMainPage.jsx";
 import MedicalReimbursement from "./AdminSide/MedicalReimbursement.jsx";
 import Analytics from "./pages/Analytics.jsx";
+import Masterlist from "./AdminSide/MasterList.jsx"
 import Maintenance from "./AdminSide/Maintenance.jsx";
 import { DrawerProvider } from "./context/DrawerContext.jsx";
 import Security from "./components/Security.jsx";
@@ -58,6 +59,15 @@ const routers = createBrowserRouter([
           <Security
             page='Medical'
             children={<MedicalReimbursement />}
+          />
+        ),
+      },
+      {
+        path: "masterlist",
+        element: (
+          <Security
+            page='masterlist'
+            children={<Masterlist />}
           />
         ),
       },

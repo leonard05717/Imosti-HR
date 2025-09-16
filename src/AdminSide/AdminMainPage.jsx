@@ -6,6 +6,7 @@ import {
   IconFolder,
   IconMan,
   IconMessage2Cog,
+  IconReport,
   IconSchool,
   IconSettings,
   IconTool,
@@ -30,6 +31,11 @@ const links = [
     label: "Employee",
     to: "Medical",
     icon: IconMan,
+  },
+  {
+    label: "Master List",
+    to: "masterlist",
+    icon: IconReport,
   },
 ];
 

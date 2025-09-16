@@ -98,7 +98,10 @@ const handleSinglePrint = () => {
 <body>
   <div>
     <h2>Utilization Report</h2>
-    <h5>As of ${new Date(Datefilter   ).toDateString()}</h5>
+    <h5>As of ${(new Date(Datefilter)).toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'short'
+})}</h5>
   </div>
  <div class="center">
     <table>
@@ -711,7 +714,7 @@ const totalMedicalAmount = totalEmployeeAmount + totalDependentAmount;
       >
         <CartesianGrid strokeDasharray="3 3" />
         <YAxis dataKey="month" type="category" />
-        <XAxis type="number"  tickCount={15}  domain={[0, Autocomplete]}   tick={{ fontSize: 12 }} />
+        <XAxis type="number"  tickCount={15}   tick={{ fontSize: 12 }} />
         <Tooltip />
         <Legend />
         <Bar dataKey="Employee" fill="#e56731" />
@@ -784,7 +787,7 @@ const totalMedicalAmount = totalEmployeeAmount + totalDependentAmount;
       >
         <CartesianGrid strokeDasharray="3 3" />
         <YAxis dataKey='diagnosis' type="category" />
-        <XAxis type="number"/>
+        <XAxis type="number"  tickCount={20}/>
         <Tooltip />
         <Legend />
 
